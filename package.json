@@ -5,6 +5,9 @@
   "repository": "git@github.com:MatheusMondenez/go-node-challenge-2.git",
   "author": "Matheus Mondenez <matheusmondenez@gmail.com>",
   "license": "MPL-2.0",
+  "scripts": {
+    "start": "node src/index"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "nunjucks": "^3.1.4"
