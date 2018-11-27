@@ -44,9 +44,7 @@ class AvaiableController {
         value: value.format(),
         avaiable:
           value.isAfter(moment()) &&
-          !appointments.find(a => {
-            moment(a.date).format('HH:mm') === time
-          })
+          !appointments.find(a => moment(a.date).format('HH:mm') === time)
       }
     })
 
